@@ -1,0 +1,23 @@
+--------------------------------------------------------------------
+-- Create a new Database with name MyDB
+Create Database MyDB;
+
+--------------------------------------------------------------------
+-- Create a table named Employees
+create table Employees (
+  ID int not null identity,
+  Name char(25) null,
+  City char(25) null,
+  Email char(25) null)
+
+--------------------------------------------------------------------
+-- Insert data records to the table
+insert into Employees values 
+  ('Alex','London','Alex@gmail.com'),
+  ('Brian','New york','BrianK@gmail.com'),
+  ('Colemann','Houston','ColemannH@outlook.com'),
+  ('Daniel','Vegas','DDaniel@yahoo.com'),
+  ('Elaine','Houston','ElaineMitch@gmail.com'),
+  ('Fellow','Chennai','FellowWing@googlemail.com');
+
+--------------------------------------------------------------------
