@@ -2,6 +2,7 @@
 Calling a WebApi and retrieving data from database using AngularJS.
 
 Steps:
+
 1. Created a WebApi to retrieve all employees with end point at "http://xxxxxx/api/Employee"
 
 2. Installed AngularJS Core using nuget package manager
