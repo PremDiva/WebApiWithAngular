@@ -7,7 +7,7 @@ Steps:
 
 2. Installed AngularJS Core using nuget package manager
 
-3. Created HTML pages for UI
+3. Created new HTML pages for UI. home page at "http://xxxxxx/Views/Home.html"
 
 4. Created AngularJS code under scripts folder in the application. Custom Angular Controller created under scripts/Controllers folder.
 
